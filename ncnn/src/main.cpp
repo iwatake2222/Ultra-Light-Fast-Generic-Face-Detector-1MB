@@ -6,9 +6,9 @@
 //  Copyright © 2019 vealocia. All rights reserved.
 //
 
+#include <opencv2/opencv.hpp>
 #include "UltraFace.hpp"
 #include <iostream>
-#include <opencv2/opencv.hpp>
 
 int main(int argc, char **argv) {
     if (argc <= 3) {

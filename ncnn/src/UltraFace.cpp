@@ -126,6 +126,7 @@ int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
 
     ncnn::Extractor ex = ultraface.create_extractor();
     ex.set_num_threads(num_thread);
+    ex.set_light_mode(true);
     ex.input("input", ncnn_img);
 
     ncnn::Mat scores;

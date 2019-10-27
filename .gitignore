@@ -12,3 +12,5 @@ widerface_evaluation
 widerface_evaluate/build
 widerface_evaluate/*.so
 widerface_evaluate/*.c
+
+.vscode/
